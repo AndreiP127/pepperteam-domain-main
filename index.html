@@ -1,0 +1,94 @@
+<html lang=¨pt-br¨>
+    <head>
+        <title>Equipe Pimenta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/imgs/favicon.png" type="image/png">
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+        
+        <style>
+            
+            html, body {
+              height: 100%; /* Ensures html and body take up the full viewport height */
+              margin: 0px;
+            }
+
+            html {
+              display: flex;
+              justify-content: center; /* Centers horizontally */
+              align-items: center;     /* Centers vertically */
+            }
+            
+            body {
+            /* Optional: Add a max-width for better readability on large screens */
+            max-width: 900px; 
+            width: 100%;
+            max-height: 600px; 
+            height: 100%;
+            /* Additional styles for visualization */
+            /* border: 1px solid black; */
+            padding: 20px;
+            font-family: "Arial Black", serif;
+            }
+
+            @font-face {
+              font-family: 'BlitzBold';
+              src: url('assets/fonts/BlitzBold.otf');
+              font-weight: normal;
+              font-style: normal;
+            }
+
+            a:link {
+                display: inline-block; 
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #ffffff;
+            }            
+            
+            #mainn {
+                display: flex;
+                flex-direction: row;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .list li {
+                font-size: 30px;
+                display: flex;
+                padding: 20px;
+                margin: 25px;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.6);
+                border-radius: 10px;
+                color: rgb(255, 255, 255);
+                font-family: "BlitzBold", serif;
+                display: inline-block; 
+                transition: transform 0.2s ease-in-out;    
+                list-style: none;
+                justify-content: center;
+            }
+            
+            .list li:hover {
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    <body style="background-color: #191919; color: #ffffff">
+                    <div style="font-size: 57px; text-align: center;">Equipe Pimenta :D</div>
+                    <div style="padding-left: 166px">(Não tem muita coisa ainda, isso é temporário...)</div>
+        <div id="mainn">
+            <ul class="list">
+                <li><a href="https://drey.equipepimenta.com.br"><img src="assets/imgs/drey-pfp.png" style="width: 300px; border-radius: 15px"><div>Drey's home</div></a></li>
+            </ul>
+        </div>
+    </body>
+</html>
